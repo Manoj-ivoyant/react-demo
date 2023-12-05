@@ -8,10 +8,13 @@ import Counter from './components/Counter';
 import PostForm from './components/PostForm';
 import HookCounter from './components/HookCounter';
 import HookCounter2 from './components/HookCounter2';
+import useState_Arrays from './components/useState_Arrays';
 
 function App() {
   return (
     <div className="App">
+
+<useState_Arrays/>
       {/* <Message /> */}
       {/* <Greet/>
       <Welcome/> */}
@@ -24,11 +27,12 @@ function App() {
       <Welcome name="Animal" hero="ranbir kapoor"/> */}
       {/* <Counter/> */}
       {/* <PostForm/> */}
-      <HookCounter/>
+      {/* <HookCounter/>
       <br/>
       <br/>
       <HookCounter2/>
-      
+      <br/>
+      <br/> */}
     </div>
   );
 }
