@@ -6,6 +6,8 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import PostForm from './components/PostForm';
+import HookCounter from './components/HookCounter';
+import HookCounter2 from './components/HookCounter2';
 
 function App() {
   return (
@@ -21,7 +23,11 @@ function App() {
       <Greet name="Animal" hero="ranbir"/>
       <Welcome name="Animal" hero="ranbir kapoor"/> */}
       {/* <Counter/> */}
-      <PostForm/>
+      {/* <PostForm/> */}
+      <HookCounter/>
+      <br/>
+      <br/>
+      <HookCounter2/>
       
     </div>
   );
