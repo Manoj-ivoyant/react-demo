@@ -9,12 +9,15 @@ import PostForm from './components/PostForm';
 import HookCounter from './components/HookCounter';
 import HookCounter2 from './components/HookCounter2';
 import useState_Arrays from './components/useState_Arrays';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
 
-<useState_Arrays/>
+{/* <useState_Arrays/> */}
       {/* <Message /> */}
       {/* <Greet/>
       <Welcome/> */}
@@ -33,6 +36,10 @@ function App() {
       <HookCounter2/>
       <br/>
       <br/> */}
+
+      {/* <FunctionClick/> */}
+      {/* <ClassClick/> */}
+      <EventBind/>
     </div>
   );
 }
